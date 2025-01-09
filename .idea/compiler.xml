@@ -6,10 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="SingletonPattern" />
         <module name="FactoryMethod" />
+        <module name="AbstractFactoryPattern" />
+        <module name="SingletonPattern" />
         <module name="CreationalDesign" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="FactoryMethod" target="17" />
+      <module name="SingletonPattern" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
