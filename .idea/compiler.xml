@@ -8,13 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="FactoryMethod" />
         <module name="AbstractFactoryPattern" />
-        <module name="BuilderPattern" />
+        <module name="PrototypePattern" />
         <module name="SingletonPattern" />
         <module name="CreationalDesign" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="AbstractFactoryPattern" target="17" />
+      <module name="BuilderPattern" target="17" />
       <module name="FactoryMethod" target="17" />
       <module name="SingletonPattern" target="17" />
     </bytecodeTargetLevel>
